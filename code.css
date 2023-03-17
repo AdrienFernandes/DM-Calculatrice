@@ -1,0 +1,31 @@
+.grid-main {
+    width: 300px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(6, 75px);
+  }
+  .grid-ecran{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: rgba(19, 173, 14, 0.61);
+  }
+  .grid-bouton{
+    grid-column-end: span 2;
+  }
+  .grid-chiffre {
+    grid-column: 1/2;
+    
+    display: grid;
+    grid-template-columns: repeat(3,75px);
+    grid-auto-rows: 75px;
+  }
+  
+  .grid-calcul{
+    grid-column: 4/5;
+    
+    display: grid;
+    grid-template-columns: 75px;
+    grid-auto-rows: 75px;
+  }
+  
